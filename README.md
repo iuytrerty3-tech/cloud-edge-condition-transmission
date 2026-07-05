@@ -62,17 +62,6 @@ python experiments/run_end_to_end_generation.py --help
 python experiments/compute_generation_metrics.py --help
 ```
 
-## Measurement records (`real_runs/`)
-
-- `unified_algorithm_benchmark_fullreal_split_v1/` — per-sample benchmark records (all strategies, 0.8–10 Mbps grid); source of Table 2/3.
-- `unified_baselines_fullreal_split_v1/` — per-sample records of the rule/threshold/random baselines.
-- `hybrid_ddpg_fullreal_split_v1/` — trained policy, per-state decisions, training curve.
-- `hybrid_ddpg_multiseed/` — five-seed stability summary.
-- `e2e_generation_v1/` — end-to-end Stable Diffusion + ControlNet outputs and quality metrics.
-- `seq/action_effect_table.json` — deterministic per-image, per-branch codec measurements.
-- `maintext_figures_realonly_v1/` — regenerated figures and `numbers.json`.
-
-The uplink is modeled analytically as `t_net = 20 ms RTT + payload / bandwidth`; extraction, encoding, and decoding times are per-sample measurements.
 
 ## License
 
