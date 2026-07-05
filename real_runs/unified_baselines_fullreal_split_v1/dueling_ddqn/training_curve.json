@@ -1,0 +1,162 @@
+[
+  {
+    "episode": 200,
+    "mean_latency": 0.10142807487178074
+  },
+  {
+    "episode": 400,
+    "mean_latency": 0.11095576826422926
+  },
+  {
+    "episode": 600,
+    "mean_latency": 0.10581429086725717
+  },
+  {
+    "episode": 800,
+    "mean_latency": 0.10854461630120353
+  },
+  {
+    "episode": 1000,
+    "mean_latency": 0.10386206646019254
+  },
+  {
+    "episode": 1200,
+    "mean_latency": 0.0970728987594065
+  },
+  {
+    "episode": 1400,
+    "mean_latency": 0.09897614964624488
+  },
+  {
+    "episode": 1600,
+    "mean_latency": 0.10513195037250958
+  },
+  {
+    "episode": 1800,
+    "mean_latency": 0.11113497675486629
+  },
+  {
+    "episode": 2000,
+    "mean_latency": 0.10972047572775234
+  },
+  {
+    "episode": 2200,
+    "mean_latency": 0.1016746367324364
+  },
+  {
+    "episode": 2400,
+    "mean_latency": 0.10527177610955332
+  },
+  {
+    "episode": 2600,
+    "mean_latency": 0.09871635155376768
+  },
+  {
+    "episode": 2800,
+    "mean_latency": 0.09708548983128401
+  },
+  {
+    "episode": 3000,
+    "mean_latency": 0.09837772768651766
+  },
+  {
+    "episode": 3200,
+    "mean_latency": 0.10121475457959878
+  },
+  {
+    "episode": 3400,
+    "mean_latency": 0.10327294917531832
+  },
+  {
+    "episode": 3600,
+    "mean_latency": 0.10390361278027455
+  },
+  {
+    "episode": 3800,
+    "mean_latency": 0.0970728987594065
+  },
+  {
+    "episode": 4000,
+    "mean_latency": 0.13656940707346044
+  },
+  {
+    "episode": 4200,
+    "mean_latency": 0.0970728987594065
+  },
+  {
+    "episode": 4400,
+    "mean_latency": 0.09708211318759988
+  },
+  {
+    "episode": 4600,
+    "mean_latency": 0.0993035854730675
+  },
+  {
+    "episode": 4800,
+    "mean_latency": 0.10506837723180851
+  },
+  {
+    "episode": 5000,
+    "mean_latency": 0.10992854265836619
+  },
+  {
+    "episode": 5200,
+    "mean_latency": 0.09710138140121094
+  },
+  {
+    "episode": 5400,
+    "mean_latency": 0.10284566009452224
+  },
+  {
+    "episode": 5600,
+    "mean_latency": 0.10028474908086761
+  },
+  {
+    "episode": 5800,
+    "mean_latency": 0.10375402814258008
+  },
+  {
+    "episode": 6000,
+    "mean_latency": 0.1047100609149884
+  },
+  {
+    "episode": 6200,
+    "mean_latency": 0.10269404964897061
+  },
+  {
+    "episode": 6400,
+    "mean_latency": 0.10419942781304119
+  },
+  {
+    "episode": 6600,
+    "mean_latency": 0.09706845795250027
+  },
+  {
+    "episode": 6800,
+    "mean_latency": 0.09704671928508868
+  },
+  {
+    "episode": 7000,
+    "mean_latency": 0.09768487386275283
+  },
+  {
+    "episode": 7200,
+    "mean_latency": 0.1047100609149884
+  },
+  {
+    "episode": 7400,
+    "mean_latency": 0.1047100609149884
+  },
+  {
+    "episode": 7600,
+    "mean_latency": 0.1042971242546174
+  },
+  {
+    "episode": 7800,
+    "mean_latency": 0.1047100609149884
+  },
+  {
+    "episode": 8000,
+    "mean_latency": 0.09705096675819086
+  }
+]

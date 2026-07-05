@@ -1,0 +1,362 @@
+[
+  {
+    "episode": 200,
+    "exploration_std": 0.197181,
+    "mean_reward": -0.097073,
+    "mean_latency": 0.097073
+  },
+  {
+    "episode": 400,
+    "exploration_std": 0.194347,
+    "mean_reward": -0.097073,
+    "mean_latency": 0.097073
+  },
+  {
+    "episode": 600,
+    "exploration_std": 0.191513,
+    "mean_reward": -0.097073,
+    "mean_latency": 0.097073
+  },
+  {
+    "episode": 800,
+    "exploration_std": 0.18868,
+    "mean_reward": -0.097073,
+    "mean_latency": 0.097073
+  },
+  {
+    "episode": 1000,
+    "exploration_std": 0.185846,
+    "mean_reward": -0.097073,
+    "mean_latency": 0.097073
+  },
+  {
+    "episode": 1200,
+    "exploration_std": 0.183013,
+    "mean_reward": -0.097073,
+    "mean_latency": 0.097073
+  },
+  {
+    "episode": 1400,
+    "exploration_std": 0.180179,
+    "mean_reward": -0.097073,
+    "mean_latency": 0.097073
+  },
+  {
+    "episode": 1600,
+    "exploration_std": 0.177346,
+    "mean_reward": -0.097073,
+    "mean_latency": 0.097073
+  },
+  {
+    "episode": 1800,
+    "exploration_std": 0.174512,
+    "mean_reward": -0.097073,
+    "mean_latency": 0.097073
+  },
+  {
+    "episode": 2000,
+    "exploration_std": 0.171678,
+    "mean_reward": -0.097073,
+    "mean_latency": 0.097073
+  },
+  {
+    "episode": 2200,
+    "exploration_std": 0.168845,
+    "mean_reward": -0.097073,
+    "mean_latency": 0.097073
+  },
+  {
+    "episode": 2400,
+    "exploration_std": 0.166011,
+    "mean_reward": -0.097073,
+    "mean_latency": 0.097073
+  },
+  {
+    "episode": 2600,
+    "exploration_std": 0.163178,
+    "mean_reward": -0.097073,
+    "mean_latency": 0.097073
+  },
+  {
+    "episode": 2800,
+    "exploration_std": 0.160344,
+    "mean_reward": -0.097073,
+    "mean_latency": 0.097073
+  },
+  {
+    "episode": 3000,
+    "exploration_std": 0.157511,
+    "mean_reward": -0.097073,
+    "mean_latency": 0.097073
+  },
+  {
+    "episode": 3200,
+    "exploration_std": 0.154677,
+    "mean_reward": -0.097073,
+    "mean_latency": 0.097073
+  },
+  {
+    "episode": 3400,
+    "exploration_std": 0.151843,
+    "mean_reward": -0.097073,
+    "mean_latency": 0.097073
+  },
+  {
+    "episode": 3600,
+    "exploration_std": 0.14901,
+    "mean_reward": -0.097073,
+    "mean_latency": 0.097073
+  },
+  {
+    "episode": 3800,
+    "exploration_std": 0.146176,
+    "mean_reward": -0.097073,
+    "mean_latency": 0.097073
+  },
+  {
+    "episode": 4000,
+    "exploration_std": 0.143343,
+    "mean_reward": -0.097073,
+    "mean_latency": 0.097073
+  },
+  {
+    "episode": 4200,
+    "exploration_std": 0.140509,
+    "mean_reward": -0.097073,
+    "mean_latency": 0.097073
+  },
+  {
+    "episode": 4400,
+    "exploration_std": 0.137676,
+    "mean_reward": -0.097073,
+    "mean_latency": 0.097073
+  },
+  {
+    "episode": 4600,
+    "exploration_std": 0.134842,
+    "mean_reward": -0.097073,
+    "mean_latency": 0.097073
+  },
+  {
+    "episode": 4800,
+    "exploration_std": 0.132009,
+    "mean_reward": -0.097073,
+    "mean_latency": 0.097073
+  },
+  {
+    "episode": 5000,
+    "exploration_std": 0.129175,
+    "mean_reward": -0.097073,
+    "mean_latency": 0.097073
+  },
+  {
+    "episode": 5200,
+    "exploration_std": 0.126341,
+    "mean_reward": -0.097073,
+    "mean_latency": 0.097073
+  },
+  {
+    "episode": 5400,
+    "exploration_std": 0.123508,
+    "mean_reward": -0.097073,
+    "mean_latency": 0.097073
+  },
+  {
+    "episode": 5600,
+    "exploration_std": 0.120674,
+    "mean_reward": -0.097073,
+    "mean_latency": 0.097073
+  },
+  {
+    "episode": 5800,
+    "exploration_std": 0.117841,
+    "mean_reward": -0.097073,
+    "mean_latency": 0.097073
+  },
+  {
+    "episode": 6000,
+    "exploration_std": 0.115007,
+    "mean_reward": -0.097073,
+    "mean_latency": 0.097073
+  },
+  {
+    "episode": 6200,
+    "exploration_std": 0.112174,
+    "mean_reward": -0.097073,
+    "mean_latency": 0.097073
+  },
+  {
+    "episode": 6400,
+    "exploration_std": 0.10934,
+    "mean_reward": -0.097073,
+    "mean_latency": 0.097073
+  },
+  {
+    "episode": 6600,
+    "exploration_std": 0.106506,
+    "mean_reward": -0.097073,
+    "mean_latency": 0.097073
+  },
+  {
+    "episode": 6800,
+    "exploration_std": 0.103673,
+    "mean_reward": -0.097073,
+    "mean_latency": 0.097073
+  },
+  {
+    "episode": 7000,
+    "exploration_std": 0.100839,
+    "mean_reward": -0.097073,
+    "mean_latency": 0.097073
+  },
+  {
+    "episode": 7200,
+    "exploration_std": 0.098006,
+    "mean_reward": -0.097073,
+    "mean_latency": 0.097073
+  },
+  {
+    "episode": 7400,
+    "exploration_std": 0.095172,
+    "mean_reward": -0.097073,
+    "mean_latency": 0.097073
+  },
+  {
+    "episode": 7600,
+    "exploration_std": 0.092339,
+    "mean_reward": -0.097073,
+    "mean_latency": 0.097073
+  },
+  {
+    "episode": 7800,
+    "exploration_std": 0.089505,
+    "mean_reward": -0.097073,
+    "mean_latency": 0.097073
+  },
+  {
+    "episode": 8000,
+    "exploration_std": 0.086671,
+    "mean_reward": -0.097073,
+    "mean_latency": 0.097073
+  },
+  {
+    "episode": 8200,
+    "exploration_std": 0.083838,
+    "mean_reward": -0.097073,
+    "mean_latency": 0.097073
+  },
+  {
+    "episode": 8400,
+    "exploration_std": 0.081004,
+    "mean_reward": -0.097073,
+    "mean_latency": 0.097073
+  },
+  {
+    "episode": 8600,
+    "exploration_std": 0.078171,
+    "mean_reward": -0.097073,
+    "mean_latency": 0.097073
+  },
+  {
+    "episode": 8800,
+    "exploration_std": 0.075337,
+    "mean_reward": -0.097073,
+    "mean_latency": 0.097073
+  },
+  {
+    "episode": 9000,
+    "exploration_std": 0.072504,
+    "mean_reward": -0.097073,
+    "mean_latency": 0.097073
+  },
+  {
+    "episode": 9200,
+    "exploration_std": 0.06967,
+    "mean_reward": -0.097073,
+    "mean_latency": 0.097073
+  },
+  {
+    "episode": 9400,
+    "exploration_std": 0.066836,
+    "mean_reward": -0.097073,
+    "mean_latency": 0.097073
+  },
+  {
+    "episode": 9600,
+    "exploration_std": 0.064003,
+    "mean_reward": -0.097073,
+    "mean_latency": 0.097073
+  },
+  {
+    "episode": 9800,
+    "exploration_std": 0.061169,
+    "mean_reward": -0.097073,
+    "mean_latency": 0.097073
+  },
+  {
+    "episode": 10000,
+    "exploration_std": 0.058336,
+    "mean_reward": -0.097073,
+    "mean_latency": 0.097073
+  },
+  {
+    "episode": 10200,
+    "exploration_std": 0.055502,
+    "mean_reward": -0.097073,
+    "mean_latency": 0.097073
+  },
+  {
+    "episode": 10400,
+    "exploration_std": 0.052669,
+    "mean_reward": -0.097073,
+    "mean_latency": 0.097073
+  },
+  {
+    "episode": 10600,
+    "exploration_std": 0.049835,
+    "mean_reward": -0.097073,
+    "mean_latency": 0.097073
+  },
+  {
+    "episode": 10800,
+    "exploration_std": 0.047001,
+    "mean_reward": -0.097073,
+    "mean_latency": 0.097073
+  },
+  {
+    "episode": 11000,
+    "exploration_std": 0.044168,
+    "mean_reward": -0.097073,
+    "mean_latency": 0.097073
+  },
+  {
+    "episode": 11200,
+    "exploration_std": 0.041334,
+    "mean_reward": -0.097073,
+    "mean_latency": 0.097073
+  },
+  {
+    "episode": 11400,
+    "exploration_std": 0.038501,
+    "mean_reward": -0.097073,
+    "mean_latency": 0.097073
+  },
+  {
+    "episode": 11600,
+    "exploration_std": 0.035667,
+    "mean_reward": -0.097073,
+    "mean_latency": 0.097073
+  },
+  {
+    "episode": 11800,
+    "exploration_std": 0.032834,
+    "mean_reward": -0.097073,
+    "mean_latency": 0.097073
+  },
+  {
+    "episode": 12000,
+    "exploration_std": 0.03,
+    "mean_reward": -0.097073,
+    "mean_latency": 0.097073
+  }
+]

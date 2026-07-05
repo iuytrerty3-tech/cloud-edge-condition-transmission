@@ -1,0 +1,310 @@
+{
+  "grid": [
+    1.0,
+    2.0,
+    3.0,
+    5.0,
+    10.0
+  ],
+  "population": "31 held-out images",
+  "latency_rows": {
+    "ours_hybrid_ddpg": {
+      "per_bw": [
+        0.1505,
+        0.0946,
+        0.076,
+        0.0611,
+        0.0501
+      ],
+      "mean": 0.0865
+    },
+    "dueling_ddqn": {
+      "per_bw": [
+        0.1505,
+        0.0946,
+        0.076,
+        0.0611,
+        0.0501
+      ],
+      "mean": 0.0865
+    },
+    "ppo_scheduler": {
+      "per_bw": [
+        0.1505,
+        0.0946,
+        0.076,
+        0.0611,
+        0.0503
+      ],
+      "mean": 0.0865
+    },
+    "a2c_scheduler": {
+      "per_bw": [
+        0.1505,
+        0.0946,
+        0.076,
+        0.0611,
+        0.0503
+      ],
+      "mean": 0.0865
+    },
+    "gbdt_selector": {
+      "per_bw": [
+        0.1505,
+        0.0947,
+        0.076,
+        0.0611,
+        0.05
+      ],
+      "mean": 0.0865
+    },
+    "random_forest_selector": {
+      "per_bw": [
+        0.1505,
+        0.0946,
+        0.076,
+        0.0611,
+        0.05
+      ],
+      "mean": 0.0865
+    },
+    "rule_threshold": {
+      "per_bw": [
+        0.1593,
+        0.1017,
+        0.0801,
+        0.0611,
+        0.05
+      ],
+      "mean": 0.0904
+    },
+    "bandwidth_only_rule": {
+      "per_bw": [
+        0.1593,
+        0.0946,
+        0.0801,
+        0.0625,
+        0.05
+      ],
+      "mean": 0.0893
+    },
+    "random_selector": {
+      "per_bw": [
+        0.4729,
+        0.3338,
+        0.1744,
+        0.1517,
+        0.0902
+      ],
+      "mean": 0.2446
+    },
+    "cond_png_l6_ds1": {
+      "per_bw": [
+        0.1505,
+        0.0946,
+        0.076,
+        0.0611,
+        0.0503
+      ],
+      "mean": 0.0865
+    },
+    "cond_png_l1_recon": {
+      "per_bw": [
+        0.2873,
+        0.1617,
+        0.1199,
+        0.0863,
+        0.0609
+      ],
+      "mean": 0.1432
+    },
+    "cond_png_l3_recon": {
+      "per_bw": [
+        0.1669,
+        0.1019,
+        0.0802,
+        0.0629,
+        0.0496
+      ],
+      "mean": 0.0923
+    },
+    "cond_png_l9_recon": {
+      "per_bw": [
+        0.1525,
+        0.1027,
+        0.0861,
+        0.0728,
+        0.0626
+      ],
+      "mean": 0.0953
+    },
+    "cloud_jpeg_q75": {
+      "per_bw": [
+        0.2538,
+        0.1416,
+        0.1038,
+        0.0737,
+        0.0514
+      ],
+      "mean": 0.1249
+    },
+    "cloud_png": {
+      "per_bw": [
+        1.872,
+        0.9849,
+        0.6906,
+        0.4537,
+        0.2774
+      ],
+      "mean": 0.8557
+    }
+  },
+  "payload_rows": {
+    "ours_hybrid_ddpg": {
+      "payload_kb": 14.6,
+      "ssim": 1.0
+    },
+    "dueling_ddqn": {
+      "payload_kb": 14.4,
+      "ssim": 1.0
+    },
+    "ppo_scheduler": {
+      "payload_kb": 14.3,
+      "ssim": 1.0
+    },
+    "a2c_scheduler": {
+      "payload_kb": 14.3,
+      "ssim": 1.0
+    },
+    "gbdt_selector": {
+      "payload_kb": 14.5,
+      "ssim": 1.0
+    },
+    "random_forest_selector": {
+      "payload_kb": 14.5,
+      "ssim": 1.0
+    },
+    "rule_threshold": {
+      "payload_kb": 15.5,
+      "ssim": 1.0
+    },
+    "bandwidth_only_rule": {
+      "payload_kb": 15.5,
+      "ssim": 1.0
+    },
+    "random_selector": {
+      "payload_kb": 59.2,
+      "ssim": 0.9999
+    },
+    "cond_png_l6_ds1": {
+      "payload_kb": 14.3,
+      "ssim": 1.0
+    },
+    "cond_png_l1_recon": {
+      "payload_kb": 32.2,
+      "ssim": 1.0
+    },
+    "cond_png_l3_recon": {
+      "payload_kb": 16.7,
+      "ssim": 1.0
+    },
+    "cond_png_l9_recon": {
+      "payload_kb": 12.8,
+      "ssim": 1.0
+    },
+    "cloud_jpeg_q75": {
+      "payload_kb": 28.8,
+      "ssim": 0.8647
+    },
+    "cloud_png": {
+      "payload_kb": 227.0,
+      "ssim": 1.0
+    }
+  },
+  "encode_ms": {
+    "cloud_png": 60.33,
+    "cond_jpeg_q85_ds1": 4.72,
+    "cond_jpeg_q95_ds1": 3.91,
+    "cond_png_l1_ds1": 7.26,
+    "cond_png_l3_ds1": 8.02,
+    "cond_png_l6_ds1": 11.64,
+    "cond_png_l9_ds1": 24.03,
+    "cond_png_l6_v1_measured": 10.21
+  },
+  "headline": {
+    "payload_reduction_pct": 93.6,
+    "latency_reduction_pct": 89.9,
+    "ours_payload_kb": 14.6,
+    "cloudpng_payload_kb": 227.0,
+    "ours_latency_s": 0.0865,
+    "cloudpng_latency_s": 0.8557
+  },
+  "tails": {
+    "ours_hybrid_ddpg": {
+      "p90": 0.154,
+      "p95": 0.19,
+      "max": 0.296
+    },
+    "a2c_scheduler": {
+      "p90": 0.154,
+      "p95": 0.19,
+      "max": 0.296
+    },
+    "random_selector": {
+      "p90": 0.692,
+      "p95": 0.91,
+      "max": 2.046
+    },
+    "cond_png_l1_recon": {
+      "p90": 0.293,
+      "p95": 0.355,
+      "max": 0.607
+    },
+    "cloud_png": {
+      "p90": 1.786,
+      "p95": 2.58,
+      "max": 3.529
+    }
+  },
+  "crossover": {
+    "l6_to_l3_crossover_mbps": 8.2,
+    "best_single_fixed_branch": "PNG-L3",
+    "adaptive_gain_avg_pct_1_50": 2.1,
+    "adaptive_gain_max_pct_1_50": 11.7,
+    "gain_at_50mbps_pct": 1.6
+  },
+  "e2e": {
+    "ours_hybrid_ddpg@1": {
+      "extract": 0.006,
+      "encode": 0.0104,
+      "network": 0.1316,
+      "decode": 0.0024,
+      "pipeline_total": 0.1505,
+      "e2e_with_gen": 5.07
+    },
+    "ours_hybrid_ddpg@10": {
+      "extract": 0.006,
+      "encode": 0.0091,
+      "network": 0.0324,
+      "decode": 0.0026,
+      "pipeline_total": 0.0501,
+      "e2e_with_gen": 4.97
+    },
+    "cloud_png@1": {
+      "extract": 0.0112,
+      "encode": 0.0672,
+      "network": 1.7936,
+      "decode": 0.0,
+      "pipeline_total": 1.872,
+      "e2e_with_gen": 6.79
+    },
+    "cloud_png@10": {
+      "extract": 0.0117,
+      "encode": 0.0684,
+      "network": 0.1974,
+      "decode": 0.0,
+      "pipeline_total": 0.2774,
+      "e2e_with_gen": 5.2
+    }
+  }
+}

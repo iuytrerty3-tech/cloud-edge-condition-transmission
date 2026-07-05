@@ -1,0 +1,90 @@
+{
+  "average_latency_ranking": [
+    {
+      "strategy": "gbdt_selector",
+      "mean_total_time": 0.09697432673315928
+    },
+    {
+      "strategy": "random_forest_selector",
+      "mean_total_time": 0.09699045035562487
+    },
+    {
+      "strategy": "ours_hybrid_ddpg",
+      "mean_total_time": 0.09700498706525973
+    },
+    {
+      "strategy": "dueling_ddqn",
+      "mean_total_time": 0.09704671928508868
+    },
+    {
+      "strategy": "ppo_scheduler",
+      "mean_total_time": 0.0970728987594065
+    },
+    {
+      "strategy": "a2c_scheduler",
+      "mean_total_time": 0.0970728987594065
+    },
+    {
+      "strategy": "cond_png_l6_ds1",
+      "mean_total_time": 0.09739475201205572
+    },
+    {
+      "strategy": "ours_q_policy",
+      "mean_total_time": 0.09956456387871176
+    },
+    {
+      "strategy": "rule_threshold",
+      "mean_total_time": 0.10151262195240106
+    },
+    {
+      "strategy": "cloud_jpeg_q75",
+      "mean_total_time": 0.14377251918057612
+    },
+    {
+      "strategy": "cloud_png",
+      "mean_total_time": 1.0725963147395357
+    }
+  ],
+  "per_bandwidth_best": [
+    {
+      "bandwidth_mbps": 0.8,
+      "best_strategy": "gbdt_selector",
+      "best_latency": 0.17794994283507587
+    },
+    {
+      "bandwidth_mbps": 1.0,
+      "best_strategy": "ours_hybrid_ddpg",
+      "best_latency": 0.1504577855513461
+    },
+    {
+      "bandwidth_mbps": 1.5,
+      "best_strategy": "ours_hybrid_ddpg",
+      "best_latency": 0.11291190104258639
+    },
+    {
+      "bandwidth_mbps": 2.0,
+      "best_strategy": "ours_hybrid_ddpg",
+      "best_latency": 0.09462404161611551
+    },
+    {
+      "bandwidth_mbps": 3.0,
+      "best_strategy": "ours_hybrid_ddpg",
+      "best_latency": 0.07604225641456984
+    },
+    {
+      "bandwidth_mbps": 5.0,
+      "best_strategy": "gbdt_selector",
+      "best_latency": 0.061086793863164485
+    },
+    {
+      "bandwidth_mbps": 8.0,
+      "best_strategy": "gbdt_selector",
+      "best_latency": 0.052506376164414566
+    },
+    {
+      "bandwidth_mbps": 10.0,
+      "best_strategy": "rule_threshold",
+      "best_latency": 0.05000046921873927
+    }
+  ]
+}

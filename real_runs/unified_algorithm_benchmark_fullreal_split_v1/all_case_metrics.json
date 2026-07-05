@@ -1,0 +1,882 @@
+[
+  {
+    "strategy": "cloud_jpeg_q75",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 0.8,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 112,
+    "ssim": 0.8675054870545864
+  },
+  {
+    "strategy": "cloud_jpeg_q75",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 1.0,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 112,
+    "ssim": 0.8675054870545864
+  },
+  {
+    "strategy": "cloud_jpeg_q75",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 1.5,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 112,
+    "ssim": 0.8675054870545864
+  },
+  {
+    "strategy": "cloud_jpeg_q75",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 2.0,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 112,
+    "ssim": 0.8675054870545864
+  },
+  {
+    "strategy": "cloud_jpeg_q75",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 3.0,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 112,
+    "ssim": 0.8675054870545864
+  },
+  {
+    "strategy": "cloud_jpeg_q75",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 5.0,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 112,
+    "ssim": 0.8675054870545864
+  },
+  {
+    "strategy": "cloud_jpeg_q75",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 8.0,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 112,
+    "ssim": 0.8675054870545864
+  },
+  {
+    "strategy": "cloud_jpeg_q75",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 10.0,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 112,
+    "ssim": 0.8675054870545864
+  },
+  {
+    "strategy": "cloud_png",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 0.8,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 112,
+    "ssim": 1.0000000117080552
+  },
+  {
+    "strategy": "cloud_png",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 1.0,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 112,
+    "ssim": 1.0000000117080552
+  },
+  {
+    "strategy": "cloud_png",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 1.5,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 112,
+    "ssim": 1.0000000117080552
+  },
+  {
+    "strategy": "cloud_png",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 2.0,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 112,
+    "ssim": 1.0000000117080552
+  },
+  {
+    "strategy": "cloud_png",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 3.0,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 112,
+    "ssim": 1.0000000117080552
+  },
+  {
+    "strategy": "cloud_png",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 5.0,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 112,
+    "ssim": 1.0000000117080552
+  },
+  {
+    "strategy": "cloud_png",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 8.0,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 112,
+    "ssim": 1.0000000117080552
+  },
+  {
+    "strategy": "cloud_png",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 10.0,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 112,
+    "ssim": 1.0000000117080552
+  },
+  {
+    "strategy": "cond_png_l6_ds1",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 0.8,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 112,
+    "ssim": 1.0000000117080552
+  },
+  {
+    "strategy": "cond_png_l6_ds1",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 1.0,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 112,
+    "ssim": 1.0000000117080552
+  },
+  {
+    "strategy": "cond_png_l6_ds1",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 1.5,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 112,
+    "ssim": 1.0000000117080552
+  },
+  {
+    "strategy": "cond_png_l6_ds1",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 2.0,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 112,
+    "ssim": 1.0000000117080552
+  },
+  {
+    "strategy": "cond_png_l6_ds1",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 3.0,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 112,
+    "ssim": 1.0000000117080552
+  },
+  {
+    "strategy": "cond_png_l6_ds1",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 5.0,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 112,
+    "ssim": 1.0000000117080552
+  },
+  {
+    "strategy": "cond_png_l6_ds1",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 8.0,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 112,
+    "ssim": 1.0000000117080552
+  },
+  {
+    "strategy": "cond_png_l6_ds1",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 10.0,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 112,
+    "ssim": 1.0000000117080552
+  },
+  {
+    "strategy": "ours_hybrid_ddpg",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 0.8,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 31,
+    "ssim": 1.000000007690922
+  },
+  {
+    "strategy": "ours_hybrid_ddpg",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 1.0,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 31,
+    "ssim": 1.000000007690922
+  },
+  {
+    "strategy": "ours_hybrid_ddpg",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 1.5,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 31,
+    "ssim": 1.000000007690922
+  },
+  {
+    "strategy": "ours_hybrid_ddpg",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 2.0,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 31,
+    "ssim": 1.000000007690922
+  },
+  {
+    "strategy": "ours_hybrid_ddpg",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 3.0,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 31,
+    "ssim": 1.000000007690922
+  },
+  {
+    "strategy": "ours_hybrid_ddpg",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 5.0,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 31,
+    "ssim": 1.000000007690922
+  },
+  {
+    "strategy": "ours_hybrid_ddpg",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 8.0,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 31,
+    "ssim": 1.000000007690922
+  },
+  {
+    "strategy": "ours_hybrid_ddpg",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 10.0,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 31,
+    "ssim": 1.000000007690922
+  },
+  {
+    "strategy": "ours_q_policy",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 0.8,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 31,
+    "ssim": 1.000000007690922
+  },
+  {
+    "strategy": "ours_q_policy",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 1.0,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 31,
+    "ssim": 1.000000007690922
+  },
+  {
+    "strategy": "ours_q_policy",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 1.5,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 31,
+    "ssim": 1.000000007690922
+  },
+  {
+    "strategy": "ours_q_policy",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 2.0,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 31,
+    "ssim": 1.000000007690922
+  },
+  {
+    "strategy": "ours_q_policy",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 3.0,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 31,
+    "ssim": 1.000000007690922
+  },
+  {
+    "strategy": "ours_q_policy",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 5.0,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 31,
+    "ssim": 1.000000007690922
+  },
+  {
+    "strategy": "ours_q_policy",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 8.0,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 31,
+    "ssim": 1.000000007690922
+  },
+  {
+    "strategy": "ours_q_policy",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 10.0,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 31,
+    "ssim": 1.000000007690922
+  },
+  {
+    "strategy": "dueling_ddqn",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 0.8,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 31,
+    "ssim": 1.000000007690922
+  },
+  {
+    "strategy": "dueling_ddqn",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 1.0,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 31,
+    "ssim": 1.000000007690922
+  },
+  {
+    "strategy": "dueling_ddqn",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 1.5,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 31,
+    "ssim": 1.000000007690922
+  },
+  {
+    "strategy": "dueling_ddqn",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 2.0,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 31,
+    "ssim": 1.000000007690922
+  },
+  {
+    "strategy": "dueling_ddqn",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 3.0,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 31,
+    "ssim": 1.000000007690922
+  },
+  {
+    "strategy": "dueling_ddqn",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 5.0,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 31,
+    "ssim": 1.000000007690922
+  },
+  {
+    "strategy": "dueling_ddqn",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 8.0,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 31,
+    "ssim": 1.000000007690922
+  },
+  {
+    "strategy": "dueling_ddqn",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 10.0,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 31,
+    "ssim": 1.000000007690922
+  },
+  {
+    "strategy": "ppo_scheduler",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 0.8,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 31,
+    "ssim": 1.000000007690922
+  },
+  {
+    "strategy": "ppo_scheduler",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 1.0,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 31,
+    "ssim": 1.000000007690922
+  },
+  {
+    "strategy": "ppo_scheduler",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 1.5,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 31,
+    "ssim": 1.000000007690922
+  },
+  {
+    "strategy": "ppo_scheduler",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 2.0,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 31,
+    "ssim": 1.000000007690922
+  },
+  {
+    "strategy": "ppo_scheduler",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 3.0,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 31,
+    "ssim": 1.000000007690922
+  },
+  {
+    "strategy": "ppo_scheduler",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 5.0,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 31,
+    "ssim": 1.000000007690922
+  },
+  {
+    "strategy": "ppo_scheduler",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 8.0,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 31,
+    "ssim": 1.000000007690922
+  },
+  {
+    "strategy": "ppo_scheduler",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 10.0,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 31,
+    "ssim": 1.000000007690922
+  },
+  {
+    "strategy": "a2c_scheduler",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 0.8,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 31,
+    "ssim": 1.000000007690922
+  },
+  {
+    "strategy": "a2c_scheduler",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 1.0,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 31,
+    "ssim": 1.000000007690922
+  },
+  {
+    "strategy": "a2c_scheduler",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 1.5,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 31,
+    "ssim": 1.000000007690922
+  },
+  {
+    "strategy": "a2c_scheduler",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 2.0,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 31,
+    "ssim": 1.000000007690922
+  },
+  {
+    "strategy": "a2c_scheduler",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 3.0,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 31,
+    "ssim": 1.000000007690922
+  },
+  {
+    "strategy": "a2c_scheduler",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 5.0,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 31,
+    "ssim": 1.000000007690922
+  },
+  {
+    "strategy": "a2c_scheduler",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 8.0,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 31,
+    "ssim": 1.000000007690922
+  },
+  {
+    "strategy": "a2c_scheduler",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 10.0,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 31,
+    "ssim": 1.000000007690922
+  },
+  {
+    "strategy": "gbdt_selector",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 0.8,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 31,
+    "ssim": 1.000000007690922
+  },
+  {
+    "strategy": "gbdt_selector",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 1.0,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 31,
+    "ssim": 1.000000007690922
+  },
+  {
+    "strategy": "gbdt_selector",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 1.5,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 31,
+    "ssim": 1.000000007690922
+  },
+  {
+    "strategy": "gbdt_selector",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 2.0,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 31,
+    "ssim": 1.000000007690922
+  },
+  {
+    "strategy": "gbdt_selector",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 3.0,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 31,
+    "ssim": 1.000000007690922
+  },
+  {
+    "strategy": "gbdt_selector",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 5.0,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 31,
+    "ssim": 1.000000007690922
+  },
+  {
+    "strategy": "gbdt_selector",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 8.0,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 31,
+    "ssim": 1.000000007690922
+  },
+  {
+    "strategy": "gbdt_selector",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 10.0,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 31,
+    "ssim": 1.000000007690922
+  },
+  {
+    "strategy": "random_forest_selector",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 0.8,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 31,
+    "ssim": 1.000000007690922
+  },
+  {
+    "strategy": "random_forest_selector",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 1.0,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 31,
+    "ssim": 1.000000007690922
+  },
+  {
+    "strategy": "random_forest_selector",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 1.5,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 31,
+    "ssim": 1.000000007690922
+  },
+  {
+    "strategy": "random_forest_selector",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 2.0,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 31,
+    "ssim": 1.000000007690922
+  },
+  {
+    "strategy": "random_forest_selector",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 3.0,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 31,
+    "ssim": 1.000000007690922
+  },
+  {
+    "strategy": "random_forest_selector",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 5.0,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 31,
+    "ssim": 1.000000007690922
+  },
+  {
+    "strategy": "random_forest_selector",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 8.0,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 31,
+    "ssim": 1.000000007690922
+  },
+  {
+    "strategy": "random_forest_selector",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 10.0,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 31,
+    "ssim": 1.000000007690922
+  },
+  {
+    "strategy": "rule_threshold",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 0.8,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 31,
+    "ssim": 1.000000007690922
+  },
+  {
+    "strategy": "rule_threshold",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 1.0,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 31,
+    "ssim": 1.000000007690922
+  },
+  {
+    "strategy": "rule_threshold",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 1.5,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 31,
+    "ssim": 1.000000007690922
+  },
+  {
+    "strategy": "rule_threshold",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 2.0,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 31,
+    "ssim": 1.000000007690922
+  },
+  {
+    "strategy": "rule_threshold",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 3.0,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 31,
+    "ssim": 1.000000007690922
+  },
+  {
+    "strategy": "rule_threshold",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 5.0,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 31,
+    "ssim": 1.000000007690922
+  },
+  {
+    "strategy": "rule_threshold",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 8.0,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 31,
+    "ssim": 1.000000007690922
+  },
+  {
+    "strategy": "rule_threshold",
+    "mode": "canny",
+    "downsample_factor": 1,
+    "bandwidth_mbps": 10.0,
+    "steps": 0,
+    "guidance_scale": 0.0,
+    "num_pairs": 31,
+    "ssim": 1.000000007690922
+  }
+]

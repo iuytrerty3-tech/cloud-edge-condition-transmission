@@ -1,0 +1,16 @@
+{
+  "mean_latency": 0.2857681615908019,
+  "mean_payload": 59.40180427797379,
+  "mean_ssim": 0.9999127472119946,
+  "action_usage": {
+    "cond_png_l6_ds1": 42,
+    "cond_jpeg_q95_ds1": 41,
+    "cloud_png": 39,
+    "cond_png_l9_ds1": 38,
+    "cond_png_l3_ds1": 34,
+    "cond_png_l1_ds1": 33,
+    "cond_jpeg_q85_ds1": 21
+  },
+  "train_samples": 81,
+  "eval_samples": 31
+}
