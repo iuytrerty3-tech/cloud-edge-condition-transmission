@@ -1,0 +1,20 @@
+torch
+torchvision
+torchaudio
+diffusers>=0.30.0
+transformers
+accelerate
+safetensors
+Pillow
+opencv-python
+numpy
+torchmetrics
+torch-fidelity
+lpips
+matplotlib
+scikit-image
+# sequential-scheduling + multi-request allocation experiments (envs/, experiments/run_*_benchmark.py)
+gymnasium
+scikit-learn
+scipy
+pulp

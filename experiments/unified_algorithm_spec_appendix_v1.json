@@ -1,0 +1,104 @@
+{
+  "paper_main_method": "ours_hybrid_ddpg",
+  "algorithms": [
+    {
+      "key": "ours_hybrid_ddpg",
+      "label": "Ours-Hybrid-DDPG",
+      "group": "ours",
+      "color": "#d7191c",
+      "linestyle": "-",
+      "marker": "D",
+      "role": "main_method"
+    },
+    {
+      "key": "ours_q_policy",
+      "label": "Ours-QPolicy",
+      "group": "ours",
+      "color": "#b2182b",
+      "linestyle": "--",
+      "marker": "o",
+      "role": "ours_baseline"
+    },
+    {
+      "key": "gbdt_selector",
+      "label": "GBDT-Selector",
+      "group": "ml",
+      "color": "#1a9641",
+      "linestyle": "-",
+      "marker": "P",
+      "role": "ml_baseline"
+    },
+    {
+      "key": "random_forest_selector",
+      "label": "RandomForest-Selector",
+      "group": "ml",
+      "color": "#66bd63",
+      "linestyle": "--",
+      "marker": "X",
+      "role": "weaker_ml"
+    },
+    {
+      "key": "rule_threshold",
+      "label": "Rule-Threshold",
+      "group": "traditional",
+      "color": "#f46d43",
+      "linestyle": "-",
+      "marker": "h",
+      "role": "traditional"
+    },
+    {
+      "key": "bandwidth_only_rule",
+      "label": "Bandwidth-Only Rule",
+      "group": "traditional",
+      "color": "#fdae61",
+      "linestyle": "-.",
+      "marker": "<",
+      "role": "weak_traditional"
+    },
+    {
+      "key": "random_selector",
+      "label": "Random-Selector",
+      "group": "traditional",
+      "color": "#fddbc7",
+      "linestyle": ":",
+      "marker": ">",
+      "role": "random_baseline"
+    },
+    {
+      "key": "cond_png_l6_ds1",
+      "label": "Cond-PNG-L6",
+      "group": "fixed",
+      "color": "#fee08b",
+      "linestyle": "--",
+      "marker": "o",
+      "role": "strong_fixed"
+    },
+    {
+      "key": "cond_png_l1_ds1",
+      "label": "Cond-PNG-L1",
+      "group": "fixed",
+      "color": "#f4a582",
+      "linestyle": "--",
+      "marker": "d",
+      "role": "weak_fixed"
+    },
+    {
+      "key": "cloud_jpeg_q75",
+      "label": "Cloud-JPEG75",
+      "group": "fixed",
+      "color": "#92c5de",
+      "linestyle": "--",
+      "marker": "s",
+      "role": "cloud_baseline"
+    },
+    {
+      "key": "cloud_png",
+      "label": "Cloud-PNG",
+      "group": "fixed",
+      "color": "#9e9e9e",
+      "linestyle": ":",
+      "marker": "x",
+      "role": "weak_baseline"
+    }
+  ]
+}

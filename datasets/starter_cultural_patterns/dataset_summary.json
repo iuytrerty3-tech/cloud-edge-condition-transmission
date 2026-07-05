@@ -1,0 +1,12 @@
+{
+  "total_records": 112,
+  "category_counts": {
+    "blue_and_white_porcelain": 25,
+    "paper_cutting": 11,
+    "artifact_object": 31,
+    "artifact_pattern": 22,
+    "window_flower": 9,
+    "cultural_clothing": 14
+  },
+  "montage": "datasets/starter_cultural_patterns/dataset_montage.jpg"
+}

@@ -1,0 +1,20 @@
+{
+  "manifest": "datasets/starter_cultural_patterns/manifest.jsonl",
+  "base_model_id": "hf-internal-testing/tiny-stable-diffusion-pipe-no-safety",
+  "controlnet_model_id": "__from_unet__",
+  "torch_dtype": "float32",
+  "image_size": 64,
+  "canny_low_threshold": 100,
+  "canny_high_threshold": 200,
+  "png_compress_level": 9,
+  "modes": ["canny"],
+  "downsample_factors": [1],
+  "bandwidth_mbps_list": [1, 2, 3, 5, 10],
+  "strategies": ["ours", "cloud_condition"],
+  "steps": 5,
+  "guidance_scale": 5.0,
+  "seed": 42,
+  "rtt_ms": 20.0,
+  "baseline_image_format": "PNG",
+  "baseline_jpeg_quality": 95
+}

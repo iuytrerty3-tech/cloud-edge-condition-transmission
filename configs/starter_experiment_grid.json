@@ -1,0 +1,20 @@
+{
+  "manifest": "datasets/starter_cultural_patterns/manifest.jsonl",
+  "base_model_id": "runwayml/stable-diffusion-v1-5",
+  "controlnet_model_id": "lllyasviel/sd-controlnet-canny",
+  "torch_dtype": "float16",
+  "image_size": 512,
+  "canny_low_threshold": 100,
+  "canny_high_threshold": 200,
+  "png_compress_level": 9,
+  "modes": ["canny"],
+  "downsample_factors": [1, 2, 4],
+  "bandwidth_mbps_list": [1, 2, 5],
+  "strategies": ["ours", "cloud_condition"],
+  "steps": 20,
+  "guidance_scale": 7.5,
+  "seed": 42,
+  "rtt_ms": 20.0,
+  "baseline_image_format": "PNG",
+  "baseline_jpeg_quality": 95
+}

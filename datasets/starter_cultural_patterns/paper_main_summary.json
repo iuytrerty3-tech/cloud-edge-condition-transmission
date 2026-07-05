@@ -1,0 +1,21 @@
+{
+  "total_records": 112,
+  "paper_main_records": 112,
+  "paper_main_categories": [
+    "blue_and_white_porcelain",
+    "artifact_object",
+    "artifact_pattern",
+    "paper_cutting",
+    "window_flower",
+    "cultural_clothing"
+  ],
+  "paper_main_category_counts": {
+    "blue_and_white_porcelain": 25,
+    "paper_cutting": 11,
+    "artifact_object": 31,
+    "artifact_pattern": 22,
+    "window_flower": 9,
+    "cultural_clothing": 14
+  },
+  "supplementary_categories": {}
+}
