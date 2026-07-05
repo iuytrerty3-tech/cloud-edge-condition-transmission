@@ -1,0 +1,54 @@
+{
+  "strategies": {
+    "ref_uncompressed": {
+      "mean_gen_time_s": 4.93333659904234,
+      "mean_payload_kb": 768.8193359375,
+      "mean_total_with_gen_s": 6.154616811444684,
+      "n": 31
+    },
+    "cond_png_l6": {
+      "mean_gen_time_s": 4.9210288873487915,
+      "mean_payload_kb": 14.248204385080646,
+      "mean_total_with_gen_s": 4.963291706700478,
+      "n": 31
+    },
+    "cond_png_l3": {
+      "mean_gen_time_s": 4.916352035030242,
+      "mean_payload_kb": 16.693107358870968,
+      "mean_total_with_gen_s": 4.962435015278478,
+      "n": 31
+    },
+    "cond_jpeg_q75": {
+      "mean_gen_time_s": 4.921527217741934,
+      "mean_payload_kb": 44.81895791330645,
+      "mean_total_with_gen_s": 5.011556839481477,
+      "n": 31
+    },
+    "cloud_png": {
+      "mean_gen_time_s": 4.9051974073840725,
+      "mean_payload_kb": 235.57614037298387,
+      "mean_total_with_gen_s": 5.29328512671686,
+      "n": 31
+    },
+    "cloud_jpeg_q75": {
+      "mean_gen_time_s": 4.938928285660284,
+      "mean_payload_kb": 28.770759828629032,
+      "mean_total_with_gen_s": 5.003882597892516,
+      "n": 31
+    }
+  },
+  "config": {
+    "metadata": "datasets/starter_cultural_patterns/paper_main_metadata.json",
+    "eval_ids": "experiments/fullreal_eval_ids_v1.json",
+    "output_root": "real_runs/e2e_generation_v1",
+    "device": "cuda",
+    "steps": 30,
+    "guidance": 7.5,
+    "seed": 42,
+    "bandwidth_mbps": 5.0,
+    "rtt_ms": 20.0,
+    "base_model_id": "runwayml/stable-diffusion-v1-5",
+    "controlnet_model_id": "lllyasviel/sd-controlnet-canny",
+    "limit": 0
+  }
+}

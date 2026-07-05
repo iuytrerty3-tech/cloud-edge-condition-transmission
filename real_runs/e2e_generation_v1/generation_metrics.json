@@ -1,0 +1,56 @@
+[
+  {
+    "strategy": "cloud_jpeg_q75",
+    "FID_vs_real": 161.23,
+    "CLIP": 21.262,
+    "LPIPS_vs_ref": 0.117,
+    "SSIM_vs_ref": 0.79343,
+    "pixel_identity_rate": 0.0,
+    "n": 31
+  },
+  {
+    "strategy": "cloud_png",
+    "FID_vs_real": 162.032,
+    "CLIP": 21.263,
+    "LPIPS_vs_ref": 0.0,
+    "SSIM_vs_ref": 1.0,
+    "pixel_identity_rate": 1.0,
+    "n": 31
+  },
+  {
+    "strategy": "cond_jpeg_q75",
+    "FID_vs_real": 181.315,
+    "CLIP": 21.261,
+    "LPIPS_vs_ref": 0.22988,
+    "SSIM_vs_ref": 0.68759,
+    "pixel_identity_rate": 0.0,
+    "n": 31
+  },
+  {
+    "strategy": "cond_png_l3",
+    "FID_vs_real": 162.032,
+    "CLIP": 21.263,
+    "LPIPS_vs_ref": 0.0,
+    "SSIM_vs_ref": 1.0,
+    "pixel_identity_rate": 1.0,
+    "n": 31
+  },
+  {
+    "strategy": "cond_png_l6",
+    "FID_vs_real": 162.032,
+    "CLIP": 21.263,
+    "LPIPS_vs_ref": 0.0,
+    "SSIM_vs_ref": 1.0,
+    "pixel_identity_rate": 1.0,
+    "n": 31
+  },
+  {
+    "strategy": "ref_uncompressed",
+    "FID_vs_real": 162.032,
+    "CLIP": 21.263,
+    "LPIPS_vs_ref": 0.0,
+    "SSIM_vs_ref": 1.0,
+    "pixel_identity_rate": 1.0,
+    "n": 31
+  }
+]
