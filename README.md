@@ -1,6 +1,5 @@
 # Cloud-Edge Cultural Pattern Generation via Lossless Condition Transmission
 
-Code, dataset, and measurement records for the paper *"Latency-Efficient Cloud-Edge Cultural Pattern Generation via Lossless Lightweight Condition Transmission and Bandwidth-Adaptive Scheduling"* (under review at Discover Artificial Intelligence).
 
 The edge device extracts a ControlNet structural condition (Canny edge / skeleton map) from a reference image, compresses it losslessly with PNG, and uploads only this compact payload. The cloud reconstructs the condition bit-identically and runs the full Stable Diffusion + ControlNet pipeline, so the generated image is exactly the one that would have been produced from the uncompressed reference. A hybrid-action reinforcement-learning scheduler selects the transmission branch (condition type, PNG level, downsampling) according to bandwidth and image complexity.
 
