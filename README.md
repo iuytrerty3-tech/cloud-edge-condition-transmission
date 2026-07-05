@@ -34,9 +34,6 @@ Scheduling/benchmark experiments run on CPU. End-to-end generation was measured 
 
 `datasets/starter_cultural_patterns/` contains 112 images in five categories (blue-and-white porcelain, cultural clothing, paper-cutting, window-flower, artifact), collected from Wikimedia Commons; each record in `paper_main_metadata.json` carries its original `source_url`, and the images remain under their original licenses. The train/held-out split used in the paper is fixed by `experiments/fullreal_train_ids_v1.json` (81 ids) and `experiments/fullreal_eval_ids_v1.json` (31 ids).
 
-## Reproducing the paper
-
-Every number in Tables 2, 3, and 5 and every main-text figure can be regenerated from the shipped measurement records:
 
 ```bash
 # All main-text figures + a numbers.json holding every table entry
