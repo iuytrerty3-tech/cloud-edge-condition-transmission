@@ -12,14 +12,14 @@ cloud_edge_sd_prototype/     importable package
   cloud/                     Stable Diffusion + ControlNet generation
   eval/                      metrics
   pipeline.py                end-to-end pipeline
-envs/                        scheduling environments
 experiments/                 training, benchmarking, and reproduction scripts
 data_tools/                  dataset download / expansion utilities
 configs/                     experiment grids and manifests
 datasets/starter_cultural_patterns/
-  images/                    112 cultural-pattern images (5 categories)
+  images/                    112 cultural-pattern images in 6 category folders
   paper_main_metadata.json   per-image category, prompt, id, source_url, relative path
 real_runs/                   measurement records used by the paper (see below)
+figures/                     figure assets used by the manuscript
 ```
 
 ## Installation
@@ -33,11 +33,11 @@ Scheduling/benchmark experiments run on CPU. End-to-end generation was measured 
 
 ## Dataset
 
-`datasets/starter_cultural_patterns/` contains 112 images in five categories (blue-and-white porcelain, cultural clothing, paper-cutting, window-flower, artifact), collected from Wikimedia Commons; each record in `paper_main_metadata.json` carries its original `source_url`, and the images remain under their original licenses. The train/held-out split used in the paper is fixed by `experiments/fullreal_train_ids_v1.json` (81 ids) and `experiments/fullreal_eval_ids_v1.json` (31 ids).
+`datasets/starter_cultural_patterns/` contains 112 images in six category folders (blue-and-white porcelain 25, artifact-object 31, artifact-pattern 22, cultural clothing 14, paper-cutting 11, window-flower 9), collected from Wikimedia Commons; each record in `paper_main_metadata.json` carries its original `source_url`, and the images remain under their original licenses. The train/held-out split used in the paper is fixed by `experiments/fullreal_train_ids_v1.json` (81 ids) and `experiments/fullreal_eval_ids_v1.json` (31 ids).
 
 ## Reproducing the paper
 
-Every number in Tables 2, 3, and 5 and every main-text figure can be regenerated from the shipped measurement records:
+Every number in Tables 2, 3, and 4 and every main-text figure can be regenerated from the shipped measurement records (Table 5, the end-to-end generation quality table, is stored in `real_runs/e2e_generation_v1/generation_metrics.json`):
 
 ```bash
 # All main-text figures + a numbers.json holding every table entry
@@ -70,13 +70,27 @@ python experiments/compute_generation_metrics.py --help
 
 - `unified_algorithm_benchmark_fullreal_split_v1/` — per-sample benchmark records (all strategies, 0.8–10 Mbps grid); source of Table 2/3.
 - `unified_baselines_fullreal_split_v1/` — per-sample records of the rule/threshold/random baselines.
-- `hybrid_ddpg_fullreal_split_v1/` — trained policy, per-state decisions, training curve.
+- `hybrid_ddpg_fullreal_split_v1/` — trained policy and policy/action logs (`policy.json`: per-state actor state vector and selected branch; `decision_map.json`), plus the training curve.
 - `hybrid_ddpg_multiseed/` — five-seed stability summary.
-- `e2e_generation_v1/` — end-to-end Stable Diffusion + ControlNet outputs and quality metrics.
+- `e2e_generation_v1/` — end-to-end Stable Diffusion + ControlNet outputs and quality metrics; `generation_metrics.json` is the source of Table 5.
 - `seq/action_effect_table.json` — deterministic per-image, per-branch codec measurements.
 - `maintext_figures_realonly_v1/` — regenerated figures and `numbers.json`.
 
-The uplink is modeled analytically as `t_net = 20 ms RTT + payload / bandwidth`; extraction, encoding, and decoding times are per-sample measurements.
+The uplink is modeled analytically as `t_net = 20 ms RTT + payload / bandwidth` over a fixed bandwidth grid (1, 2, 3, 5, 10 Mbps in the main tables; 0.8/1.5/8 Mbps in the supporting sweeps); extraction, encoding, and decoding times are per-sample wall-clock measurements. **No captured network traces are used, and no jitter or packet-loss term appears anywhere in the benchmark or in the scheduler state.** The scheduler state vector is `[bandwidth, payload complexity, extraction complexity, encoding complexity, edge density, category one-hot]` (see `build_state_vector_from_profile` in `experiments/train_hybrid_ddpg_scheduler.py`).
+
+## Reproducibility index
+
+| Paper artifact | Where it lives in this repository |
+|---|---|
+| Dataset images + per-image category, prompt, source URL | `datasets/starter_cultural_patterns/images/`, `datasets/starter_cultural_patterns/paper_main_metadata.json` |
+| Image licenses / provenance | per-image `source_url` in `paper_main_metadata.json` (Wikimedia Commons and other publicly accessible sources) |
+| 81/31 train / held-out split identifiers | `experiments/fullreal_train_ids_v1.json`, `experiments/fullreal_eval_ids_v1.json` |
+| Per-sample measurement records (all strategies x bandwidths) | `real_runs/unified_algorithm_benchmark_fullreal_split_v1/`, `real_runs/unified_baselines_fullreal_split_v1/`, `real_runs/seq/action_effect_table.json` |
+| Policy / action logs of the trained scheduler | `real_runs/hybrid_ddpg_fullreal_split_v1/policy.json`, `decision_map.json` |
+| Five-seed stability run | `real_runs/hybrid_ddpg_multiseed/` |
+| End-to-end generation outputs and quality metrics (Table 5) | `real_runs/e2e_generation_v1/` |
+| Scripts regenerating Tables 2-4 and every main-text figure | `experiments/rebuild_maintext_figures_realonly.py`, `experiments/reproduce_codec_conditions.py` |
+| Implementation settings (Table 1) | `experiments/train_hybrid_ddpg_scheduler.py`, `configs/`, and the settings listed above |
 
 ## License
 

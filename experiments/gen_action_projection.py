@@ -34,7 +34,16 @@ def repo_root() -> Path:
 
 
 def overleaf_root() -> Path:
-    return repo_root().parent / "wenchuang_overleaf"
+    """Figure output directory.
+
+    Uses the sibling manuscript checkout when it exists (author workflow) and
+    otherwise writes inside the repository so that the script is runnable as
+    released.
+    """
+    manuscript_dir = repo_root().parent / "wenchuang_overleaf"
+    if manuscript_dir.is_dir():
+        return manuscript_dir
+    return repo_root() / "real_runs" / "maintext_figures_realonly_v1"
 
 
 def parse_category(sample_id: str) -> str:
@@ -92,10 +101,10 @@ def load_policy_df() -> pd.DataFrame:
                 "bandwidth_mbps": bw,
                 "selected_action": action,
                 "state_0_bandwidth": state[0],
-                "state_1_jitter": state[1],
-                "state_2_payload_complexity": state[2],
-                "state_3_extract_complexity": state[3],
-                "state_4_encode_complexity": state[4],
+                "state_1_payload_complexity": state[1],
+                "state_2_extract_complexity": state[2],
+                "state_3_encode_complexity": state[3],
+                "state_4_edge_density": state[4],
                 "cat_0": state[5],
                 "cat_1": state[6],
                 "cat_2": state[7],
